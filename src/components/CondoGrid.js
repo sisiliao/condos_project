@@ -55,7 +55,7 @@ const CondoGrid = () => {
   return (
     <div>
       <h3> Condo Grid </h3>
-      <DataTable condoData={condoData.data} />
+      <DataTable condoData={condoData.data || []} />
     </div>
   )
 }
